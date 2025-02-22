@@ -24,13 +24,15 @@ nav{
     
 }
 ul{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
     text-align: center;
+    list-style: none;
     margin: 0 auto;
 }
 ul li{
-    list-style: none;
+    border: darkblue solid 2px;padding: 5px;
 }
 main{
     padding: 16px;
