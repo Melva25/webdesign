@@ -28,11 +28,14 @@ ul{
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
     list-style: none;
-   
+    padding: 0;
 }
 ul li{
-    border: darkblue solid 2px;padding: 5px;
+    padding: 5px;
 }
+li a{
+    text-decoration: none; padding: 1rem; border: darkblue solid 2px; border-radius: 8px;}
+li a:hover{color: white; background-color: rgba(8, 8, 146, 0.767);}
 main{
     padding: 16px;
     margin: 1rem;
