@@ -18,19 +18,19 @@ header img{
     
 }
 nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     background-color: rgba(0, 0, 255, 0.103);
     margin: 1rem;
     justify-content: center;
     
 }
 ul{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     list-style: none;
     padding: 0;
 }
-ul li{
+li{
     padding: 5px;
 }
 li a{
