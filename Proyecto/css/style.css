@@ -21,7 +21,6 @@ nav{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     background-color: rgba(0, 0, 255, 0.103); 
-    justify-content: center;
 }
 ul{
     display: flex;
