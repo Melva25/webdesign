@@ -22,7 +22,7 @@ nav{
     background-color: rgba(0, 0, 255, 0.103);   
 }
 ul{
-    display: grid;
+    display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 0;
