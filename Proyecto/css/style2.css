@@ -15,20 +15,22 @@ img{
 }
 nav{
     display: grid;
-    border: azure solid 2px;
+    grid-template-columns: 1fr 3fr 1fr;
     background-color: rgba(0, 0, 255, 0.178);
-    height: 40px;
-    text-align: center;
 }
 ul{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 50%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    grid-column: 2/3;
 }
-ul li{
-    list-style-type: none;
+li{
+    padding: 5px;
 }
+li a{
+    text-decoration: none; padding: 1rem; border: darkblue solid 2px; border-radius: 8px;}
+li a:hover{color: white; background-color: rgba(8, 8, 146, 0.767);}
 main{
     background-color: bisque;
     width: 100%;
