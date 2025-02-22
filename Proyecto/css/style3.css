@@ -17,20 +17,23 @@ header img{
     
 }
 nav{
-    background-color: rgba(0, 0, 255, 0.103);
-    margin: 1rem;
-    justify-content: center;
-    
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: rgba(0, 0, 255, 0.103);   
 }
 ul{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    margin: 0 auto;
-}
-ul li{
+    justify-content: space-between;
     list-style: none;
+    padding: 0;
+    grid-column: 2/3;
 }
+li{
+    padding: 5px;
+}
+li a{
+    text-decoration: none; padding: 1rem; border: darkblue solid 2px; border-radius: 8px;}
+li a:hover{color: white; background-color: rgba(8, 8, 146, 0.767);}
 main{
     background-color: azure;
     padding: 16px;
