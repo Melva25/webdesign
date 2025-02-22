@@ -1,0 +1,181 @@
+body{
+    display: flex;
+    justify-content: center;
+    border: 2px blue dotted;
+    flex-wrap: wrap;
+}
+header, nav, main, footer{
+    border: 2px red dotted;
+    width: 100%;
+    height: 100px;
+}
+header, nav{
+    height: 40px;
+}
+main{
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}section{
+    border: solid 1px green;
+}
+.jc{
+    width: 300px;
+    height: auto;
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+section p{
+    width: 100%;
+}
+article{
+    border: 1px dashed orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+    background-color: blanchedalmond;
+    margin: 0.5px;
+}
+#sec_one{
+    justify-content: flex-start;
+}
+#sec_two{
+    justify-content: flex-end;
+}
+#sec_three{
+    justify-content: center;
+}
+#sec_four{
+    justify-content: space-around;
+}
+#sec_five{
+    justify-content: space-between;
+}
+#sec_six{
+    justify-content: space-evenly;
+}
+footer{
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+}
+footer section{
+    border: solid 1px green;
+    padding: 0.5rem;
+    width: 200px;
+    display: flex;
+    height: 300px;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer article{
+    border: 1px dashed gold;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+    background-color: burlywood;
+}
+#sec_seven{
+    align-items: flex-start;
+}
+#sec_eight{
+    align-items: flex-end;
+}
+#sec_nine{
+    align-items: center;
+}
+#sec_ten{
+    align-items: stretch;
+}
+#sec_eleven{
+    align-items: baseline;
+}
+#uno{
+    width: 50px;
+    height: 40px;
+}
+#dos{
+    width: 50px;
+    height: 60px;
+}
+#tres{
+    width: 50px;
+    height: 30px;
+}
+#cuatro{
+    width: 50px;
+    height: 40px;
+}
+#cinco{
+    width: 50px;
+    height: 40px;
+}
+#seis{
+    width: 50px;
+    height: 60px;
+}
+#siete{
+    width: 50px;
+    height: 20px;
+}
+#ocho{
+    width: 50px;
+    height: 40px;
+}
+#nueve{
+    width: 50px;
+    height: 40px;
+}
+#diez{
+    width: 50px;
+    height: 60px;
+}
+#once{
+    width: 50px;
+    height: 20px;
+}
+#doce{
+    width: 50px;
+    height: 50px;
+}
+#trece{
+    width: 50px;
+    height: 80px;
+}
+#catorce{
+    width: 50px;
+    height: 80px;
+}
+#quince{
+    width: 50px;
+    height: 80px;
+}
+#dieciseis{
+    width: 50px;
+    height: 80px;
+}
+#diecisiete{
+    width: 50px;
+    height: 70px;
+    font-size: 3rem;
+}
+#dieciocho{
+    width: 50px;
+    height: 70px;
+    font-size: 2rem;
+}
+#diecinueve{
+    width: 50px;
+    height: 70px;
+    font-size: 1rem;
+}
+#veinte{
+    width: 50px;
+    height: 70px;
+    font-size: 0.8rem;
+}

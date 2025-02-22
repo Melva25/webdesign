@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    background-color: brown;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+nav{
+    background-color: azure;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+main{
+    background-color: bisque;
+    width: 400px;
+    border: violet solid 2px;
+    padding: 1rem;
+    margin: 1rem;
+}
+footer{
+    border: red dashed 2px;
+}
+article, section{
+    height: 100px;
+    background-color: rgb(153, 50, 204, 0.212);
+}
+section{
+    border: gold solid 1px;
+}
+@media(min-width:450px){
+    main{
+        background-color: aqua;
+        border: green dotted 3px;
+    }
+    nav{
+        background-color: coral;
+    }
+    footer{
+        background-color: blanchedalmond;
+    }
+}
