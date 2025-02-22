@@ -25,7 +25,6 @@ nav{
 }
 ul{
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
     text-align: center;
     list-style: none;
